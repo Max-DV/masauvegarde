@@ -1,0 +1,119 @@
+<html>
+
+<head>
+
+    <style>
+        p {
+            color: red;
+        }
+
+        p {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        strong {
+            color: red;
+        }
+
+        .rouge {
+            border: 10px dashed darkgreen;
+            font-size : 6em;
+            font-style: italic;
+         color: forestgreen;
+        }
+
+        .avertissement {
+            font-weight: bolder;
+        }
+        a {
+            color: red;
+        }
+
+.urgent:hover {font-size: 300%;}
+        ul {
+            margin-left: 7;
+        }
+            * {
+        margin: 4;
+        padding: 4;
+    }
+
+    #container * {
+        border: 1px solid gold;
+    }
+.gradient {
+  font-size: 72px;
+  display: inline-block;
+  background: red;
+  color: black;
+  position: relative;
+}
+
+.gradient::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-linear-gradient(left, lightgreen, darkgreen);
+  background: linear-gradient(to right,lightgreen, darkgreen);
+  content: '';
+  display: block;
+  mix-blend-mode: screen;
+}
+
+    </style>
+        <style>
+        #data-table-1 td:first-child {font-weight: bolder;} 
+        #data-table-1 td:first-child + td {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+        
+    </style>
+</head>
+
+<body>
+    <!-- <p> Cascading Style Sheets </p> -->
+    <h1> Quelque chose</h1>
+     <input src="C:\Users\AELION\Desktop\cat.gif" type="image" float='float:right' value="Validation" name="B1" width= "100" /> 
+     
+    <p style='color:red; font-size:400%;font-family:Algerian'>Cascading Style Sheets</p>
+    <strong <strong style='color:red;'>Je</strong> suis strong
+    <p>
+        <strong>C</strong>ascading
+        <strong>S</strong>tyle
+        <strong>S</strong>heets
+    </p>
+    </br>
+
+    <set  class = 'rouge avertissement gradient urgent'> un paragraphe </set>
+    </br>
+     <table id="data-table-1">
+        <tr>
+            <td>Prefix</td>
+            <td>0001</td>
+            <td>default</td>
+        </tr>
+    </table>
+    <s classe='test'> foinfrojnornoinfi,ne ci 'noi </s>
+    </br>
+<form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputPassword3">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Sign in</button>
+</form>
+
+</body>
+
+</html>

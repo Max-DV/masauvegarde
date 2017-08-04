@@ -1,0 +1,14 @@
+**/.settings/
+**/.project
+**/.classpath
+**/bin/
+**/*.jar
+**/*.war
+**/.metadata/
+**/.recommenders/
+tools/
+libs/
+**/target/
+servers/
+java/workspace/Servers/
+java/workspace/.metadata/
